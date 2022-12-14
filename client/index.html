@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Agent Undercover</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="/client/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script data-ad-client="ca-pub-4268041487796066" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script type="text/javascript">
+        window._mNHandle = window._mNHandle || {};
+        window._mNHandle.queue = window._mNHandle.queue || [];
+        medianet_versionId = "3121199";
+    </script>
+    <script src="https://contextual.media.net/dmedianet.js?cid=8CUA54V48" async="async"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Agent Undercover</h1>
+        <button id="mainmenu" onclick="toMain();">Verlassen</button>
+    </div>
+    <div class="frame" id="login">
+        <div class="content">
+            <input id="loginForm" type="text" placeholder="Nutzername">
+            <button onclick="joinlobby();"><span>Einloggen</span></button>
+        </div>
+    </div>
+    <div class="frame" id="game">
+        <div class="content" id="preGame">
+            <p id="wlcm"></p>
+            <div class="switch-button"><span class="active"></span>
+                <button class="switch-button-case left active-case">Neues Spiel</button>
+                <button class="switch-button-case right">Spiel beitreten</button>
+            </div>
+            <button class="preBtn" id="joinBtn" onclick="joinGame();">Los geht's!</button>
+            <input id="codeinput" type="number" min="10000" placeholder="Raumcode" />
+        </div>
+        <div class="content" id="lobby">
+            <h1 id="code"></h1>
+            <p>Spieler:</p>
+            <ul id="playerList">
+
+            </ul>
+            <button id="startBtn" onclick="tryStart();">Spiel Starten</button>
+        </div>
+        <div class="content" id="gameContent">
+            <div class="field" id="place">
+
+            </div>
+            <div class="field" id="job">
+
+            </div>
+            <button class="verdacht" onclick="verdaechtigen();">Verdacht!</button>
+        </div>
+        <div class="content" id="spy">
+            <table id="spyTable">
+                <tr>
+                    <th>ORT</th>
+                    <th>Bestätigen</th>
+                </tr>
+            </table>
+
+            <button class="verdacht" onclick="verdaechtigen();">Verdacht!</button>
+        </div>
+        <div id="730385643">
+            <script type="text/javascript">
+                try {
+                    window._mNHandle.queue.push(function (){
+                        window._mNDetails.loadTag("730385643", "970x90", "730385643");
+                    });
+                }
+                catch (error) {}
+            </script>
+        </div>
+    </div>
+    <script src="/client/client.js"></script>
+</body>
+
+</html>

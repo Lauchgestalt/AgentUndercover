@@ -1,0 +1,22 @@
+var options = {
+    "Casino": ["Croupier", "Sicherheitsmann", "Barkeeper", "Techniker", "Inhaber", "Spieler"],
+    "Supermarkt": ["Kassierer", "Putzkraft", "Einräumer", "Lieferant", "Kunde", "Filealleiter"],
+    "Militärbasis": ["Offizier", "Einfacher Soldat", "Sonderkommando", "Seelsorge", "Technische Leitung", "Waffenmeister"],
+    "Universität": ["Professor", "Student", "Bibliothekar", "Tutor", "Cafeteria-Mensch", "Nachhilfelehrer"],
+    "Bank": ["Räuber", "Bankleiter", "Berater", "Kreditmanager", "Wertpapieranalyst", "Investmentbanker"],
+    "Dampflokomotive": ["Heizer", "Lokführer", "Passagier", "Bremser", "Zugbegleiter", "Techniker"],
+    "Filmstudio": ["Kameramann", "Regisseur", "Maskenbildner", "Stuntman", "Statist", "Audiotechniker"],
+    "Flugzeug": ["Pilot", "Stewardess", "Passagier", "Co-Pilot", "Fluglotse", "Snackmensch"],
+    "Hotel": ["Rezeptionist", "Koch", "Zimmermädchen", "Gast", "Hoteltester", "Valet"],
+    "Kirche": ["Priester", "Jesus", "Messdiener", "Gemeindemitglied", "Mönch", "Orgelspieler"],
+    "Krankenhaus": ["Chirurg", "Internist", "Patient", "Pfleger", "Assistenzarzt", "Krankenschwester"],
+    "Kreuzfahrtschiff": ["Barkeeper", "Kapitän", "Zimmermädchen", "Masseur", "Techniker", "Gast"],
+    "Piratenschiff": ["Kapitän", "Navigator", "Schiffszimmermann", "Schiffsarzt", "Steuermann", "Klabautermann"],
+    "Polarstation": ["Wissenschaftler", "Tierpfleger", "Funker", "Arzt", "Hundemann", "Schlittenbauer"],
+    "Polizeistation": ["Hundestaffel", "Wasserschutz", "Anwalt", "GSG9", "Verbrecher", "Protokollschreiberling"],
+    "Restaurant": ["Kellner", "Koch", "Gast", "Konditor", "Restaurantkritiker", "Barkeeper"],
+    "Schule": ["Schüler", "Lehrer", "Hausmeister", "Direktor", "Sekretär", "Aushilfslehrer"],
+    "Strand": ["Rettungsschwimmer", "Tourist", "Bootsverleiher", "Sonnenbrillenverkäufer", "Eisverkäufer", "Surflehrer"],
+    "Theater": ["Darsteller", "Visagist", "Autor", "Bühnenbildner", "Kostümbildner", "Komponist"],
+    "Wellness-Tempel": ["Friseur", "Poolboy", "Masseur", "Kosmetiker", "Gast", "Barkeeper"]
+}
